@@ -1,0 +1,36 @@
+.link {
+    font-size: 10px;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.link__street{
+    font-size: 10px;
+    color: rgb(95, 169,242);
+    letter-spacing: 4px;
+    font-weight: bold;
+    right: 30px;
+
+}
+.item{
+    margin-bottom: 100px;
+}
+.animation {
+    position: relative;
+    line-height: 2;
+}
+.animation:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(95, 169,242);
+    content: "";
+    transition: width 0.3s ease-out;
+}
+
+.animation:hover:after,
+.animation:focus:after {
+    width: 100%;
+}

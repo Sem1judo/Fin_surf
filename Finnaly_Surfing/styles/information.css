@@ -1,0 +1,37 @@
+.surfing__information{
+    margin-top: 50px;
+}
+.surf__information-training img{
+    width: 70%;
+}
+.surf__information-training_content{
+    width: 270px;
+    position: relative;
+    top: 100px
+}
+.item__information{
+    margin-top: 50px;
+}
+.surf__information-training_content h1:first-letter{
+    text-decoration: deepskyblue underline;
+}
+.surfing__information-point{
+    margin-top: 50px;
+}
+.surfing__information-point img{
+    position: relative;
+    left: 180px;
+    margin-top: 50px;
+    width: 40%;
+}
+.surf__information-point_content{
+    position: relative;
+    float: right;
+    width: 260px;
+    right: 80px;
+    top: 100px;
+    margin-top: 50px;
+}
+.surf__information-point_content h1:first-letter {
+    text-decoration: deepskyblue underline;
+}

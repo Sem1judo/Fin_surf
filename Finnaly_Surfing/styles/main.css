@@ -1,0 +1,40 @@
+.main{
+    height: 760px;
+}
+.main__content{
+    text-align: center;
+    position: relative;
+}
+.words__spoken-him{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 8px;
+    font-weight: 900;
+
+}
+
+.under__photo IMG { position: relative; }
+.under {bottom: 400px; }
+.over {top:100px ;}
+.under__photo-play {bottom: 360px; left: 90px; z-index: 3}
+
+.over{
+    width: 65%;
+    float: right;
+   display: inline;
+    z-index: 2;
+}
+.under{
+    width: 50%;
+}
+.main_photo__content{
+    position: relative;
+    width: 260px;
+    padding-left: 60px;
+    padding-top: 30px;
+    bottom: 400px;
+}
+.under__photo-play{
+    cursor: pointer;
+}
+

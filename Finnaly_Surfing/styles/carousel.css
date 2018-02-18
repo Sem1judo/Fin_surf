@@ -1,0 +1,73 @@
+.shop__carousel img {
+    height: 350px;
+    background-color: #eeeeee;
+}
+
+.shop__carousel {
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.surfboards_content-kind_name {
+    position: relative;
+    top: 150px;
+}
+
+.surfboards_content-kind {
+    font-size: 10px;
+    color: #797474;
+    letter-spacing: 1px;
+}
+
+.shop__carousel-surfboards__name {
+    font-size: 16px;
+    color: #3a3333;
+}
+
+.shop__price-buy {
+    position: relative;
+    top: 230px;
+    right: 75px;
+    font-size: 12px;
+}
+
+.surfboards__price-buy {
+    letter-spacing: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shop__carousel-surfboards__price {
+    font-family: serif;
+    font-size: 17px;
+    color: #dc39c6a8;
+    font-weight: 100;
+}
+
+.carousel__btn-prev {
+    position: relative;
+    color: #AAA;
+    border: none;
+    background-color: transparent;
+    float: left;
+    right: 40px;
+    top: 176px;
+    cursor: pointer;
+}
+
+.carousel__btn-next {
+    position: relative;
+    color: #AAA;
+    border: none;
+    background-color: transparent;
+    float: right;
+    left: 40px;
+    top: -176px;
+    cursor: pointer;
+}
+
+.shop__btn_all {
+    padding-top: 50px;
+    text-align: center;
+}

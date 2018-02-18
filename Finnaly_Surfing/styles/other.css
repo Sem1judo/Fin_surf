@@ -1,0 +1,23 @@
+.first_surf-magazine{
+    position: relative;
+    float: right;
+    writing-mode: tb-rl;
+    letter-spacing: 2px;
+    color: #aaaaaa82;
+    font-size: 14px;
+    left: 50px;
+    top: -600px;
+}
+.link__social-network{
+    position: relative;
+    left: 50px;
+    float: right;
+    top: -50px;
+}
+.nav__network{
+padding: 15px 0 15px 0;
+}
+.nav__link_network{
+    color: #aaaaaa82;
+    font-size: 20px;
+}

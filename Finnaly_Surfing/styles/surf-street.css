@@ -1,0 +1,19 @@
+.surfing__street{
+    padding-top: 50px;
+    margin-bottom: 450px;
+
+}
+.surfing__street_content img {
+    width: 50%;
+    float: left;
+}
+.surfing__street_name {
+    position: relative;
+    float: right;
+    width: 300px;
+    top: 100px;
+    right: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2d2d2d;
+}

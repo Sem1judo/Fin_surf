@@ -1,0 +1,131 @@
+.wrapper-slider{
+    display: block;
+    position: relative;
+    width: 1040px;
+    margin: 0 auto;
+}
+.wrapper-slider_images {
+    position: relative;
+    overflow: hidden;
+    width:960px;
+    height: 560px;
+    margin: 0;
+    padding: 0;
+}
+.wrapper-slider_images ul{
+    position: relative;
+    left: 60px;
+    width:900px;
+    height: 515px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.slider_images{
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+    opacity: 0;
+    height: 555px;
+    width: 100%;
+    overflow: hidden;
+}
+.slider_images--active {
+    z-index: 10;
+    opacity: 1;
+}
+.wrapper-slider_images img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.wrapper-slider_content__visible {
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    overflow: hidden;
+    z-index: 11;
+}
+.slider__images-content {
+    float: left;
+    width: 400px;
+    height: 223px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.slider__images-content p{
+    font-size: 15px;
+    color: #aaaaaa;
+    width: 70%;
+}
+.slider__images-content div{
+    color: rgb(95, 169,242);
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.slider__images-content span{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.wrapper-slider_nav{
+    position: relative;
+    text-align: center;
+    width: 75px;
+    top: -70px;
+    left: -20px;
+    z-index: 11;
+}
+.wrapper-slider_btn{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.wrapper-slider_btn button{
+    color: #AAA;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+.wrapper-slider_btn-next{
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+.wrapper-slider_btn-prev{
+cursor: pointer;
+    font-weight: bold;
+}
+.wrapper-slider_btn-next:before{
+   content: ">";
+    transition: 0.5s;
+}
+.wrapper-slider_btn-prev:before{
+    content: "<";
+    transition: 0.5s;
+}
+
+.wrapper-slider-numbers{
+    margin: 0 0 0 18px;
+}
+
+.wrapper-slider-numbers span[class]{
+    font-weight: 900;
+
+}
+.wrapper-slider-numbers span:not([class]){
+    color: #AAA;
+}
+.wrapper-slider-numbers-current{
+   color: rgb(95, 169,242);
+}
+.wrapper-slider-numbers-all{
+
+}
+.wrapper-slider_btn button:hover:before{
+    color: rgb(95, 169,242);
+}
+.wrapper-slider_btn button:active:before {
+color: #F00;
+}
